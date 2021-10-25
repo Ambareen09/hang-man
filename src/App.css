@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@900&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body, #root {
-  background-color: hsl(285, 30%, 66%);
-  color: rgb(143, 66, 66);
+  background-color: hsl(300, 39%, 55%);
+  color: white;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
@@ -16,6 +18,7 @@ body, #root {
 
 h1 {
   margin: 20px 0 0;
+  font-family: 'Piazzolla', serif;;
 }
 
 .game-container {
@@ -28,7 +31,7 @@ h1 {
 
 .figure-container {
   fill: transparent;
-  stroke: rgb(99, 30, 30);
+  stroke: rgb(30, 58, 99);
   stroke-width: 7px;
   stroke-linecap:square;
 }
@@ -87,7 +90,7 @@ h1 {
 }
 
 .popup {
-  background: hsl(285, 30%, 66%);
+  background: hsl(288, 51%, 35%);
   border-radius: 5px;
   box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -127,4 +130,22 @@ h1 {
 
 .notification-container.show {
   transform: translateY(-50px);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+footer p {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  line-height: 5rem;
+  font-size: 1.5rem;
 }
