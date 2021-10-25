@@ -5,6 +5,7 @@ import WrongLetters from './components/WrongLetters';
 import Word from './components/Word';
 import Popup from './components/PopUp';
 import Notification from './components/Notification';
+import Footer from './components/Footer';
 import { showNotification as show, checkWin } from './helpers/helpers';
 
 import './App.css';
@@ -64,6 +65,7 @@ function App() {
       </div>
       <Popup correctLetters={correctLetters} wrongLetters={wrongLetters} selectedWord={selectedWord} setPlayable={setPlayable} playAgain={playAgain} />
       <Notification showNotification={showNotification} />
+      <Footer/>
     </>
   );
 }
