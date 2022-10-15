@@ -1,4 +1,7 @@
-# A simple game to kill your boredom!!
+### A simple game to kill your boredom!!
+
+# Rules:
+1. You will have to guess the characters of the word to fill in the blanks correctly.
 
 # Getting Started with Create React App
 
