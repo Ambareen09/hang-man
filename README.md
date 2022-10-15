@@ -2,6 +2,9 @@
 
 # Rules:
 1. You will have to guess the characters of the word to fill in the blanks correctly.
+2. For each incorrect guess, one line for the hangman is drawn.
+3. If, exhausted all the moves, You LOSE.
+4. If you guess the word before exhausting your moves, You WIN.
 
 # Getting Started with Create React App
 
